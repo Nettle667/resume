@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="nettle, blog, блог, кирилл, крапивин">
+    <meta name="description" content="Это сайт - блог Крапивина Кирилла (Nettle), начинающего программиста.">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nettle blog</title>
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="imgs/I.jpg" alt="Моё фото" class="avatar">
+            <div class="info-text">
+                <h1>Кирилл Крапивин (Nettle)</h1>
+                <h2>О себе:</h2>
+                <p>Всем привет. Я начинающий программист в сфере web разработки, а также ученик 9 класса. Я люблю заниматься спортом, а именно волейболом. Также я люблю читать книги и собирать лего. :D</p>
+                <p>Из-за того, что моё раннее детство вышло не лёгким. Я стал сильно заниматься саморазвитием себя как личности, а также поставил цель быть лучше себя вчерашнего.</p>
+                <h3>Список социальных сетей:</h3>
+                <a href="https://vk.com/nettle07" target="_blank">Это мой ВК!</a>
+            </div>
+        </div>
+
+        <div class="card programming-languages">
+            <h2>Изученные языки программирования и их дополнения:</h2>
+            <ul class="list-pl">
+                <li>Python</li>
+                <li>HTML&CSS</li>
+            </ul>
+            <img src="imgs/python.png" width="200" alt="logo python"><br>
+            <img src="imgs/HTML&CSS.png" width="200" alt="logo html&css">
+            <h3>Список Wiki:</h3>
+            <a href="https://ru.wikipedia.org/wiki/Python" target="_blank">Python wiki</a> | <a href="https://ru.wikipedia.org/wiki/HTML" target="_blank">HTML wiki</a> | <a href="https://ru.wikipedia.org/wiki/CSS" target="_blank">CSS wiki</a>
+        </div>
+
+        <div class="card hobby">
+            <h2>Мои хобби:</h2>
+            <ol class="list-h">
+                <li>Программирование</li>
+                <li>Волейбол</li>
+                <li>Конструирование лего</li>
+                <li>Чтение</li>
+            </ol>
+        </div>
+
+        <div class="card education">
+            <h2>Моё образование:</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Название:</th>
+                        <th>Должность:</th>
+                        <th>Год:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Садик</td>
+                        <td>Детсадовец</td>
+                        <td>2010-2014</td>
+                    </tr>
+                    <tr>
+                        <td>Школа</td>
+                        <td>Школьник</td>
+                        <td>2014 - Сейчас</td>
+                    </tr>
+                    <tr>
+                        <td>Курсы в интернете</td>
+                        <td>Ученик</td>
+                        <td>2020 - Сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="Contact-with-me">
+            <form class="form">
+                <h2>Связаться со мной</h2>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Отправить!</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
